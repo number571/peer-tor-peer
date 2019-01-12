@@ -13,6 +13,6 @@ $ make run
 | :config = Reload config
 | :connect = Connect to client(s) P2rP
 | :disconnect = Disconnect from client(s) P2rP
-| :hostname	= Print hostname
+| :hostname = Print hostname
 | :network = Print connections
 ```
