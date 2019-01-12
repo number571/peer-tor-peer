@@ -10,7 +10,7 @@ const (
 	SETTINGS_DIR = CHOICE_DIR + "settings/"
 
 	CONFIG_FILE  = SETTINGS_DIR + "config.txt"
-	BLACK_LIST	 = SETTINGS_DIR + "black.list"
+	BLACK_LIS    = SETTINGS_DIR + "black.list"
 
 	WAITING_TIME = 5
 	BUFF_SIZE = 512
