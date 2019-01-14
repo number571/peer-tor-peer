@@ -11,7 +11,7 @@ import (
 func Request(client *http.Client, message string) {
     var mutex sync.Mutex
     for _, address := range settings.Addresses {
-        send(client, address, message, &mutex)
+        go send(client, address, message, &mutex)
     }
 }
 
